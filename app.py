@@ -44,7 +44,7 @@ def index ():
         
         model5 = joblib.load("CCD_NN")
         pred5 = model5.predict([[income, age, loan]])
-        s5 = "The Class of the Equity base on Neural Network model is : " + str(pred5)  
+        s5 = "The default loan base on Neural Network model is : " + str(pred5)  
         
         return(render_template("index.html", result1 =s1, result2 = s2, result3 =s3, result4 = s4, result5 =s5))
     else:
