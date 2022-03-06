@@ -48,7 +48,7 @@ def index ():
         
         return(render_template("index.html", result1 =s1, result2 = s2, result3 =s3, result4 = s4, result5 =s5))
     else:
-        return(render_template("index.html", result1 ="Oops", result2 ="Oops",result3 ="Oops", result4 = "Oops", result5 ="Oops"))
+        return(render_template("index.html", result1 ="Please enter", result2 ="your income",result3 ="your age", result4 = "and your loan", result5 ="in the above boxes."))
 
 
 # In[ ]:
