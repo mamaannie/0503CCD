@@ -3,12 +3,13 @@
         <h1> Predicted Credit Card Default </h1>
         <form action="/" method= "POST">
             <p>Please enter your income: </p>
-            <p><input type="number" step="1" name="income"></p>
+            <p><input type="number" step="100" name="income"></p>
             <p>Please enter your age: </p>
             <p><input type= "number" step="1" name="age"></p>
             <p>Please enter your loan: </p>
-            <p><input type= "number" step="1" name="loan"></p>
+            <p><input type= "number" step="100" name="loan"></p>
             <p><input type= "submit" value="Enter"></p>
+            <p>The score of Credit Card Default will be indicated by 0 (not default) or 1 (default) in the following model:</p>
         </form>
         <p>{{result1}}</p>
         <p>{{result2}}</p>
